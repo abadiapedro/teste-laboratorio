@@ -1,0 +1,16 @@
+Aluno: Pedro Guilherme Guimarães Abadia
+
+1.	O que é a engenharia de software sala limpa?
+Engenharia de software sala limpa é uma abordagem que enfatiza a necessidade de agregar precisão ao software enquanto ele está sendo desenvolvido. A filosofia por trás da engenharia de software sala limpa é evitar a dependência de processos onerosos de remoção de efeitos, escrevendo incrementos de código corretos já na primeira vez e verificando sua precisão antes do teste. O modelo incorpora a certificação estatística de qualidade dos incrementos de código, à medida que vão se acumulando no sistema.
+
+2.	Como segue a abordagem sala limpa?
+À medida que cada incremento é certificado, ele é integrado no todo, por isso o sistema cresce com o tempo. Segue as tarefas: Planejamento de incremento, Coleta dos requisitos, Especificação box structure, Projeto formal, Verificação de correção, Geração de código, inspeção e verificação, Planejamento do teste estatístico, Teste de uso estatístico, Certificação.
+
+3.	Qual o objetivo do teste de sala limpa?
+O objetivo do teste sala limpa é validar requisitos de software demonstrando que uma amostragem estatística de casos de uso foi executada de forma bem-sucedida. 
+
+4.	O que é o teste de uso estatístico?
+O teste de uso estatístico segue a logica de qual maneira que os usuários pretendem usar o sistema, sendo assim a primeira questão a ser tratada no teste é quais subconjuntos de casos de uso irá influenciar no comportamento do programa. Com base nas entrevistas com os usuários na criação de cenários de uso, é atribuída a cada entrada ou evento uma probabilidade de uso.
+
+5.	Como funciona a certificação do software?
+A certificação implica que confiabilidade pode ser especificada para cada componente. A abordagem de certificação envolve cinco passos, devem ser criados cenários de uso, é especificado um perfil de uso, são gerados casos de teste com base no perfil, são executados os testes e os dados de falhas são registrados e analisados, a confiabilidade é calculada e certificada.
